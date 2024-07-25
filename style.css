@@ -1,0 +1,141 @@
+/* font-family: "Inter", sans-serif;
+font-optical-sizing: auto;
+font-weight: 300;
+font-style: normal;
+font-variation-settings:
+  "slnt" 0; */
+
+body {
+    background-image: url("https://i.postimg.cc/gkMSnPcH/wallpaperflare-com-wallpaper.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-variation-settings: "slnt" 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: auto;
+    min-height: 100vh;
+    margin: 0;
+    overflow-y: auto;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-track {
+    background: #ffffff00;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-image: linear-gradient(to top, #ffb86c, #ff6bcb);
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-image: linear-gradient(to top, #ffb86c, #ff6bcb);
+}
+
+.avatar_description {
+    align-items: center;
+    flex-direction: column;
+}
+
+.name_uid {
+    color: white;
+    font-size: 20px;
+}
+
+.description {
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 16px;
+    padding-bottom: 16px;
+}
+
+img {
+    border-radius: 100%;
+    height: 96px;
+    width: 96px;
+}
+
+.group_nmhv2 {
+    text-align: center;
+    background: rgba(78, 78, 78, 0.267);
+    padding: 20px;;
+}
+
+.button-container {
+    position: relative;
+    padding-bottom: 16px;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    background-color: #333;
+    /* padding: 10px 20px; */
+    padding-left: 44px;
+    padding-right: 44px;
+    min-height: 55px !important;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    width: 300px;
+    justify-content: center;
+    margin-top: 16px;
+}
+
+.button img {
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    margin-right: 10px;
+    transition: transform 0.3s ease;
+}
+
+.button span {
+    flex: 1;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+
+.button:hover {
+    background-color: #555;
+    transform: scale(1.05);
+}
+
+.button:hover img {
+    transform: scale(1.1);
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: white;
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+
+.allfest {
+    color: rgb(255, 0, 0);
+    font-weight: 500;
+}
+
+.Footer {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+}
